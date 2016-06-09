@@ -17,6 +17,9 @@ counter = 1;
  i += 2   i = i + 2
  i -= 2   i = i - 2
  i++      i += 1   i = i + 1
+
+ i++   ++i
+
  i--
 
 
@@ -62,8 +65,12 @@ console.log(undef);
 var arr = new Array();
 console.log(arr);
 
+// method (метод)
 arr.push(1);
 console.log(arr);
+
+// property (свойство)
+console.log(arr.length);
 
 arr = [
   1,
@@ -87,5 +94,6 @@ obj = {
   'b': 2
 };
 
+// Function
 
 

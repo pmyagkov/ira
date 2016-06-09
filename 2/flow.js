@@ -17,13 +17,17 @@ if (i > 0) {
   }
 }
 
-i = 3;
-switch (i) {
-  case 1:
-    i = 1;
 
-  case 2:
-    i = 3;
+var str = 'c';
+
+i = 3;
+switch (str) {
+  case 'a':
+    break;
+
+  case 'b':
+    break;
+
 }
 
 console.log('i =', i);
